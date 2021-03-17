@@ -1,4 +1,22 @@
+
+a:link { /* Essentially means a[href], or that the link actually goes somewhere */
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  border-color: rgb(47, 202, 150) ;
+}
+
+
+
+
 /* Index Styles */
+
 
 .box-set {
   position: relative;
@@ -32,12 +50,18 @@
   height: 150px;
 }
 
+.img_border {
+  border: 3px solid rgb(47, 202, 150);
+  z-index: 2;
+}
+
 .img-R1C1{
   top: 40px;
   left: 0px;
   right: 0px;
   bottom: 0px;
 }
+
 .img-R1C2{
   top: -110px;
   left: 230px;
@@ -267,8 +291,10 @@ th {
   margin-right: 0px;
   margin-left: 94px;
   margin-bottom: 0px;
-  width: 50px;
-  height: 30px;
+  display: flex;
+  overflow: hidden;
+  width: 90px;
+  height: 35px;
 }
 
 @media (max-width: 600px) {
@@ -309,9 +335,13 @@ th {
     text-align: left;
     margin-top: 0px;
     margin-right: 0px;
-    margin-left: 94px;
+    margin-left: 0px;
     margin-bottom: 0px;
+    flex-direction: row;
+    align-items: stretch;
     width: 100%;
+    height: 35px;
   }
+
 
 }

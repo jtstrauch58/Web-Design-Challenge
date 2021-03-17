@@ -19,21 +19,22 @@
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-white">
 			<div class="container-fluid">
-			<a class="navbar-brand" href="index.html">
-				<span id="p-text">Latitude</span></a>
+				<a class="navbar-brand" href="index.html">
+					<span id="p-text">Latitude</span>
+				</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				</li> -->
+				<li class="nav-item">
+					<a class="nav-link" target="_self" href="comparison.html">Comparison</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" target="_blank" href="comparison.html">Comparison</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" target="_blank" href="data.html">Data</a>
+					<a class="nav-link" target="_self" href="data.html">Data</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,11 +45,9 @@
 					<li><a class="dropdown-item" href="cloudy.html">Humidity</a></li>
 					<li><a class="dropdown-item" href="humid.html">Cloudiness</a></li>
 					<li><a class="dropdown-item" href="speed.html">WindSpeed</a></li>
-					<li><a class="dropdown-item" href="data.html">Data</a></li>
 					</ul>
 				</li>
 				</ul>
-
 			</div>
 			</div>
 		</nav>
@@ -58,7 +57,7 @@
 
 			<div class="row box-set">
 				
-				<div class="col-sm-6">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 
 					<div class="card box-1">
 
@@ -71,10 +70,10 @@
 								<a target="_blank" href="humid.html">
 									<img class = "img-script" src="Resources/assets/images/cities_hum_lat.png" alt="Humidity">
 								</a>
-								"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+								Humidity vs Latitude:<br><br> (a) % humidity values ranged from near-zero to 100%; (b) the humidity data
+								<strong><em>did not indicate a correlation with latitude</em></strong>; (c) latitudes from 0 to -20 showed humidity values between
+								50 – 80; (d) latitudes 50 – 90 humidity values ranged 75 – 90; (e) all other latitude ranges had humidity values
+								of approximately 20 – 90.
 							</p>
 
 						</div>		
@@ -83,22 +82,22 @@
 
 				</div>
 				
-				<div class="col-sm-6">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 
 					<div class="card box-2">
 					
 						<div class="card-header title_style">Visualizations</div>
 
-						<a target="_blank" href="maxtemp.html">
+						<a target="_self" href="maxtemp.html">
 							<img src="Resources/assets/images/cities_temp_lat.png" class="img-fourplots img-R1C1" alt="maxtemp">
 						</a>
-						<a target="_blank" href="cloudy.html">
+						<a target="_self" href="cloudy.html">
 							<img src="Resources/assets/images/cities_cloud_lat.png" class="img-fourplots img-R1C2" alt="cloudiness">
 						</a>
-						<a target="_blank" href="humid.html">
+						<a target="_self" href="humid.html">
 							<img src="Resources/assets/images/cities_hum_lat.png" class="img-fourplots img-R2C1" alt="humdity">
 						</a>
-						<a target="_blank" href="speed.html">
+						<a target="_self" href="speed.html">
 							<img src="Resources/assets/images/cities_speed_lat.png" class="img-fourplots img-R2C2" alt="windspeed">
 						</a>
 
