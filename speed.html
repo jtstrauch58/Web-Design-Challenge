@@ -10,48 +10,36 @@
 
 <body>
 	
-	<div class="pos-f-t">
-		<div class="collapse" id="navbarToggleExternalContent">
-		  <div class="bg-white p-4">
-			<h4 class="text-black">Collapsed content</h4>
-			<span class="text-muted"></span>
-		  </div>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
-					<span id="p-text">Latitude</span>
-				</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<span id="p-text">Latitude</span>
+			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-				<!-- <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-				</li> -->
-				<li class="nav-item">
-					<a class="nav-link" target="_self" href="comparison.html">Comparison</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" target="_self" href="data.html">Data</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					Plots
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<li><a class="dropdown-item" href="maxtemp.html">Temperature</a></li>
-					<li><a class="dropdown-item" href="humid.html">Humidity</a></li>
-					<li><a class="dropdown-item" href="cloudy.html">Cloudiness</a></li>
-					<li><a class="dropdown-item" href="speed.html">WindSpeed</a></li>
-					</ul>
-				</li>
+					<li class="nav-item">
+						<a class="nav-link active" target="_self" href="comparison.html">Comparison</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" target="_self" href="data.html">Data</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Plots
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="maxtemp.html">Temperature</a></li>
+						<li><a class="dropdown-item" href="humid.html">Humidity</a></li>
+						<li><a class="dropdown-item" href="cloudy.html">Cloudiness</a></li>
+						<li><a class="dropdown-item" href="speed.html">WindSpeed</a></li>
+					</li>
 				</ul>
 			</div>
-			</div>
-		</nav>
-	</div>
+		</div>
+	</nav>
 
 		<div class="container">
 
@@ -67,7 +55,7 @@
 
 							<p class="card-text">
 
-								<a target="_blank" href="speed.html">
+								<a target="_self" href="speed.html">
 									<img class = "img-script" src="Resources/assets/images/cities_speed_lat.png" alt="Wind Speed">
 								</a>
 								Wind Speed vs Latitude: <br><br> (a) average wind speeds ranged from 0 to a high of approximately 50 mph;

@@ -9,26 +9,17 @@
 </head>
 
 <body>
-    <div class="pos-f-t">
-		<div class="collapse" id="navbarToggleExternalContent">
-		  <div class="bg-white p-4">
-			<h4 class="text-black">Collapsed content</h4>
-			<span class="text-muted"></span>
-		  </div>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-white">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
-					<span id="p-text">Latitude</span>
-				</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-				<!-- <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-				</li> -->
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html">
+			<span id="p-text">Latitude</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mt-2 mt-lg-0">
 				<li class="nav-item">
 					<a class="nav-link active" target="_self" href="comparison.html">Comparison</a>
 				</li>
@@ -44,13 +35,12 @@
 					<li><a class="dropdown-item" href="humid.html">Humidity</a></li>
 					<li><a class="dropdown-item" href="cloudy.html">Cloudiness</a></li>
 					<li><a class="dropdown-item" href="speed.html">WindSpeed</a></li>
-					</ul>
 				</li>
-				</ul>
-			</div>
-			</div>
-		</nav>
+			</ul>
+		</div>
 	</div>
+</nav>
+
 
     <div class="container">
 
@@ -63,7 +53,7 @@
 						<div class="card-header title_style">Comparison: Latitude vs X:</div>
                         <h4 class = "comp-p">Click any plot to get an in depth analysis</h4>
 						<figure>
-							<a target="_blank" href="maxtemp.html">
+							<a target="_self" href="maxtemp.html">
 								<img src="Resources/assets/images/cities_temp_lat.png" class="comp-img-fourplots comp-img-R1C1" alt="maxtemp">
 							</a>
 							<figcaption class = "comp-fig-R1C1">
@@ -72,7 +62,7 @@
 						</figure>
 						
 						<figure>
-							<a target="_blank" href="cloudy.html">
+							<a target="_self" href="cloudy.html">
 								<img src="Resources/assets/images/cities_cloud_lat.png" class="comp-img-fourplots comp-img-R1C2" alt="cloudiness">
 							</a>
 							<figcaption class = "comp-fig-R1C2">
@@ -81,7 +71,7 @@
 						</figure>
 
 						<figure>
-							<a target="_blank" href="humid.html">
+							<a target="_self" href="humid.html">
 								<img src="Resources/assets/images/cities_hum_lat.png" class="comp-img-fourplots comp-img-R2C1" alt="humdity">
 							</a>
 							<figcaption class = "comp-fig-R2C1">
@@ -90,7 +80,7 @@
 						</figure>
 
 						<figure>
-							<a target="_blank" href="speed.html">
+							<a target="_self" href="speed.html">
 								<img src="Resources/assets/images/cities_speed_lat.png" class="comp-img-fourplots comp-img-R2C2" alt="windspeed">
 							</a>
 							<figcaption class = "comp-fig-R2C2">

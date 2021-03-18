@@ -297,6 +297,11 @@ th {
   height: 35px;
 }
 
+nav a:hover{
+  background:rgb(47, 202, 150);
+  color: white;
+}
+
 @media (max-width: 600px) {
   .box-set {
     position: relative;
