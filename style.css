@@ -1,86 +1,39 @@
 
-a:link { /* Essentially means a[href], or that the link actually goes somewhere */
-  color: blue;
-}
-a:visited {
-  color: purple;
-}
-a:hover {
-  color: green;
-}
-a:active {
-  border-color: rgb(47, 202, 150) ;
-}
-
-
-
-
 /* Index Styles */
-
 
 .box-set {
   position: relative;
-  height: 500px;
   background: gray;
   top: 15px;
+  width: 100%
 }
 
 .box-1 {
   position: relative;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  margin-right: 30px;
-  margin-left: 3px;
-  width:600px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .box-2 {
   position: relative;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  margin-right: 3px;
-  margin-left: 63px;
-  width:480px;
-  height: 400px
+  margin-top: 10px;
+  margin-bottom: 20px;
+ 
 }
 
 .img-fourplots{
   position: relative;
-  width: 240px;
-  height: 150px;
+  width: 50%;
+  display:inline;
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
 }
 
-.img_border {
-  border: 3px solid rgb(47, 202, 150);
-  z-index: 2;
-}
-
-.img-R1C1{
-  top: 40px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.img-R1C2{
-  top: -110px;
-  left: 230px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.img-R2C1{
-  top: -110px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.img-R2C2{
-  top: -260px;
-  left: 230px;
-  right: 0px;
-  bottom: 0px;
+.four-images {
+  position: relative;
+  display: inline;
+  width: 100%;
 }
 
 .title_style {
@@ -110,134 +63,6 @@ a:active {
   margin-top: 0px;
   height: 170px;
   margin-right: 2px;
-}
-
-/* Comparison Site Formatting */
-
-.comp-box-set {
-  position: relative;
-  height: 500px;
-  width: 850px;
-  justify-content: center;
-  background: darkgray;
-  top: 15px;
-  left: 140px;
-}
-
-.comp-box-2 {
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-right: 5px;
-  margin-left: 0px;
-  top: 0px;
-  width:825px;
-  height: 480px;
-  /* justify-content: center;
-  vertical-align: auto; */
-}
-
-.comp-title_style {
-  background-color: white;
-  border-color: rgb(181, 182, 185);
-  color: rgb(47, 202, 150);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0px;
-  text-align: left;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-bottom: 100px;
-  width: 740px;
-}
-
-.comp-p {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-style: italic;
-  font-weight: 500;
-  padding: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-}
-
-.comp-img-fourplots{
-  position: relative;
-  width: 300px;
-  height: 180px;
-}
-
-.comp-img-R1C1{
-  top: 30px;
-  left: 80px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.comp-fig-R1C1 {
-  top: -170px;
-  left: 115px;
-  right: 0px;
-  bottom: 0px;
-  margin-left: 0px;
-}
-.comp-img-R1C2{
-  top: -186px;
-  left: 430px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.comp-fig-R1C2 {
-  top: -387px;
-  left: 490px;
-  right: 0px;
-  bottom: 0px;
-  margin-left: 0px;
-}
-
-.comp-img-R2C1{
-  top: -201px;
-  left: 80px;
-  right: 0px;
-  bottom: 0px;
-}
-.comp-fig-R2C1 {
-  top: -400px;
-  left: 148px;
-  right: 0px;
-  bottom: 0px;
-  margin-left: 0px;
-}
-
-.comp-img-R2C2{
-  top: -419px;
-  left: 435px;
-  right: 0px;
-  bottom: 0px;
-}
-
-.comp-fig-R2C2 {
-  top: -615px;
-  left: 490px;
-  right: 0px;
-  bottom: 0px;
-  margin-left: 0px;
-}
-figcaption {
-  caption-side: top;
-  color: rgb(47, 202, 150);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  font-style: italic;
-  position: relative;
 }
 
 /* Data Table Styles */
@@ -275,78 +100,20 @@ th {
   overflow: hidden;
 }
 
-/* Navbar Styles */
-
-#p-text{
-  background-color: rgb(47, 202, 150);
-  border-color:  white;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 2px;
-  text-align: left;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 94px;
-  margin-bottom: 0px;
-  display: flex;
-  overflow: hidden;
-  width: 90px;
-  height: 35px;
-}
-
 nav a:hover{
   background:rgb(47, 202, 150);
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .box-set {
     position: relative;
-    background: white;
-    height: 100%;
-    top: 0px;
+    background: rgb(121, 12, 184);
   }
   
-  .box-1 {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
-    height: 50%;
-  }
-  .box-2 {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    width:  100%;
-    height: 50%;
-  }
-  #p-text {
-    background-color: rgb(47, 202, 150);
-    border-color:  white;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 2px;
-    text-align: left;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    flex-direction: row;
-    align-items: stretch;
-    width: 100%;
-    height: 35px;
-  }
+  .title_style {
+    color: rgb(37, 49, 114);
 
+  }
 
 }
