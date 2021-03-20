@@ -11,6 +11,13 @@ nav a:hover{
   color: white;
 }
 
+#brand-text {
+  font-size: 15px;
+  color: rgb(47, 202, 150);
+  font-weight: bold;
+  margin-left: 15px;
+}
+
 /* Header Text */
 
 .comp-title_style {
